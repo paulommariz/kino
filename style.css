@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'hasgrot';
+    src: url('./font/HaasGrotDisp-65Medium.otf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'hasgrot';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #be0065;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+nav {
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+nav ul p{
+    padding-right: 40px;
+}
+
+nav li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+nav .logo {
+    margin-right: 20px;
+    padding-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Conteúdo principal */
+main {
+    flex: 1; /* Faz o conteúdo ocupar o espaço disponível */
+}
+
+main img{
+    max-width: 30%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #be0065;
+    text-decoration: underline;
+}
