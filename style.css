@@ -72,3 +72,10 @@ footer a{
     color: #be0065;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+main img{
+    width: auto;
+    min-width: 70%;
+}
+}
